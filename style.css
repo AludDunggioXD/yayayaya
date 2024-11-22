@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  background: #f71010;
+  color: white;
+  padding: 10px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.song-selector {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.song-selector label {
+  font-weight: bold;
+}
+
+.song-selector select {
+  padding: 5px 10px;
+  font-size: 1em;
+  margin-left: 10px;
+}
+
+.lyrics {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lyrics pre {
+  font-family: monospace;
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #777;
+}
+
+#autoscroll-controls {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#autoscroll-controls label {
+  font-weight: bold;
+}
+
+#autoscroll-controls select {
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+
+#lyrics {
+  max-height: 400px; /* Sesuaikan dengan kebutuhan */
+  overflow-y: auto;
+}
